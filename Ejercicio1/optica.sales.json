@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "67c5d206db85361428fa421d"
+  },
+  "customer": {
+    "$oid": "67c5d16ddb85361428fa421c"
+  },
+  "glasses": {
+    "$oid": "67c5d131db85361428fa421b"
+  },
+  "saleDateTime": {
+    "$date": "2025-03-03T16:00:06.440Z"
+  },
+  "prescription": {
+    "right": "2.0",
+    "left": "2.3"
+  },
+  "lensColor": {
+    "right": "brown",
+    "left": "brown"
+  }
+}]

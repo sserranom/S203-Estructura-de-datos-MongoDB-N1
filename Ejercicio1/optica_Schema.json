@@ -1,0 +1,216 @@
+{
+  "$jsonSchema": {
+    "title": "Esquema de la base de datos Optica",
+    "description": "Esquema de la base de datos para la óptica",
+    "type": "object",
+    "properties": {
+      "customers": {
+        "bsonType": "array",
+        "description": "Colección de clientes",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "name",
+            "address",
+            "telephone",
+            "email",
+            "registerDate"
+          ],
+          "properties": {
+            "name": {
+              "bsonType": "string",
+              "description": "Nombre del cliente"
+            },
+            "address": {
+              "bsonType": "string",
+              "description": "Dirección del cliente"
+            },
+            "telephone": {
+              "bsonType": "string",
+              "description": "Teléfono del cliente"
+            },
+            "email": {
+              "bsonType": "string",
+              "description": "Correo electrónico del cliente"
+            },
+            "registerDate": {
+              "bsonType": "date",
+              "description": "Fecha de registro del cliente"
+            },
+            "referredCustomer": {
+              "bsonType": ["objectId", "null"],
+              "description": "ID del cliente que lo refirió (opcional)"
+            }
+          }
+        }
+      },
+      "employees": {
+        "bsonType": "array",
+        "description": "Colección de empleados",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "name",
+            "phone"
+          ],
+          "properties": {
+            "name": {
+              "bsonType": "string",
+              "description": "Nombre del empleado"
+            },
+            "phone": {
+              "bsonType": "string",
+              "description": "Teléfono del empleado"
+            }
+          }
+        }
+      },
+      "glasses": {
+        "bsonType": "array",
+        "description": "Colección de gafas",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "brand",
+            "leftGlassGraduation",
+            "rightGlassGraduation",
+            "leftGlassColor",
+            "rightGlassColor",
+            "frameType",
+            "price"
+          ],
+          "properties": {
+            "brand": {
+              "bsonType": "string",
+              "description": "Marca de las gafas"
+            },
+            "leftGlassGraduation": {
+              "bsonType": "double",
+              "description": "Graduación del cristal izquierdo"
+            },
+            "rightGlassGraduation": {
+              "bsonType": "double",
+              "description": "Graduación del cristal derecho"
+            },
+            "leftGlassColor": {
+              "bsonType": "string",
+              "description": "Color del cristal izquierdo"
+            },
+            "rightGlassColor": {
+              "bsonType": "string",
+              "description": "Color del cristal derecho"
+            },
+            "frameType": {
+              "bsonType": "string",
+              "description": "Tipo de montura"
+            },
+            "price": {
+              "bsonType": "double",
+              "description": "Precio de las gafas"
+            }
+          }
+        }
+      },
+      "sales": {
+        "bsonType": "array",
+        "description": "Colección de ventas",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "customer_id",
+            "glasses_id",
+            "SaleDateTime"
+          ],
+          "properties": {
+            "customer_id": {
+              "bsonType": "objectId",
+              "description": "ID del cliente"
+            },
+            "glasses_id": {
+              "bsonType": "objectId",
+              "description": "ID de las gafas"
+            },
+            "SaleDateTime": {
+              "bsonType": "date",
+              "description": "Fecha y hora de la venta"
+            }
+          }
+        }
+      },
+      "providers": {
+        "bsonType": "array",
+        "description": "Colección de proveedores",
+        "items": {
+          "bsonType": "object",
+          "required": [
+            "name",
+            "address",
+            "phone",
+            "fax",
+            "taxId"
+          ],
+          "properties": {
+            "name": {
+              "bsonType": "string",
+              "description": "Nombre del proveedor"
+            },
+            "address": {
+              "bsonType": "object",
+              "required": [
+                "street",
+                "number",
+                "floor",
+                "door",
+                "city",
+                "postalCode",
+                "country"
+              ],
+              "properties": {
+                "street": {
+                  "bsonType": "string",
+                  "description": "Calle del proveedor"
+                },
+                "number": {
+                  "bsonType": "string",
+                  "description": "Número de calle del proveedor"
+                },
+                "floor": {
+                  "bsonType": "string",
+                  "description": "Piso del proveedor"
+                },
+                "door": {
+                  "bsonType": "string",
+                  "description": "Puerta del proveedor"
+                },
+                "city": {
+                  "bsonType": "string",
+                  "description": "Ciudad del proveedor"
+                },
+                "postalCode": {
+                  "bsonType": "string",
+                  "description": "Código postal del proveedor"
+                },
+                "country": {
+                  "bsonType": "string",
+                  "description": "País del proveedor"
+                }
+              }
+            },
+            "phone": {
+              "bsonType": "string",
+              "description": "Teléfono del proveedor"
+            },
+            "fax": {
+              "bsonType": "string",
+              "description": "Fax del proveedor"
+            },
+            "taxId": {
+              "bsonType": "string",
+              "description": "ID fiscal del proveedor"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "67c5d16ddb85361428fa421c"
+  },
+  "name": "Example Customer",
+  "address": "Right Street, 123",
+  "phone": "678921235",
+  "email": "email@email.com",
+  "registrationDate": {
+    "$date": "2023-09-23T00:00:00.000Z"
+  },
+  "referredCustomer": null
+}]

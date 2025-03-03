@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "67c5d131db85361428fa421b"
+  },
+  "brand": "Ray-Ban",
+  "prescription": {
+    "right": "2.0",
+    "left": "2.3"
+  },
+  "frame": "metal",
+  "frameColor": "silver",
+  "lensColor": {
+    "right": "brown",
+    "left": "brown"
+  },
+  "price": 127,
+  "supplier": {
+    "$oid": "67c5d0cbdb85361428fa421a"
+  }
+}]
