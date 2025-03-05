@@ -1,7 +1,7 @@
 # Esquemas de la base de datos Optica
 
 Este documento describe los esquemas de dos bases de datos relacionadas con una óptica: "Optica" (usando MongoDB) y "Optica2" (usando Mongoose con Node.js).
-
+## Ejercicio 1
 ## Optica (MongoDB)
 
 Esta base de datos almacena información sobre clientes, empleados, gafas, ventas y proveedores.
@@ -50,7 +50,7 @@ Esta base de datos almacena información sobre clientes, empleados, gafas, venta
  
       [Diagrama de la base de datos](https://github.com/sserranom/S203-Estructura-de-datos-MongoDB-N1/blob/main/Ejercicio1/Optica_diagram.jpg)
 
-
+## Ejercicio 2
 ## Optica2 (Mongoose)
 
 Esta base de datos utiliza Mongoose con Node.js y tiene una estructura similar a "Optica" pero con algunas diferencias en los nombres de los campos y los tipos de datos.
