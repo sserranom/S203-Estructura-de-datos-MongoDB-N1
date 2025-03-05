@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4214"
+  },
+  "name": "Ópticas Visionaria SL",
+  "address": {
+    "street": "Av. Reforma",
+    "number": 456,
+    "floor": 2,
+    "door": "A",
+    "city": "Madrid",
+    "postal_code": "28001",
+    "country": "Spain"
+  },
+  "phone": "+34 911 223 344",
+  "fax": "+34 911 223 345",
+  "NIF": "B87654321"
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4215"
+  },
+  "name": "Lentes & Estilo S.A.",
+  "address": {
+    "street": "Calle Bolívar",
+    "number": 78,
+    "floor": 1,
+    "door": "C",
+    "city": "Barcelona",
+    "postal_code": "08015",
+    "country": "Spain"
+  },
+  "phone": "+34 932 112 233",
+  "fax": "+34 932 112 234",
+  "NIF": "B23456789"
+}]

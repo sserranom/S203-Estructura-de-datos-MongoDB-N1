@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa421e"
+  },
+  "customer_id": {
+    "$oid": "67c89b1e5628150b13fa4216"
+  },
+  "employee_id": {
+    "$oid": "67c89b1e5628150b13fa421b"
+  },
+  "glasses_id": {
+    "$oid": "67c89b1e5628150b13fa4219"
+  },
+  "sale_date": {
+    "$date": "2025-03-01T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa421f"
+  },
+  "customer_id": {
+    "$oid": "67c89b1e5628150b13fa4217"
+  },
+  "employee_id": {
+    "$oid": "67c89b1e5628150b13fa421c"
+  },
+  "glasses_id": {
+    "$oid": "67c89b1e5628150b13fa4219"
+  },
+  "sale_date": {
+    "$date": "2025-03-02T16:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4220"
+  },
+  "customer_id": {
+    "$oid": "67c89b1e5628150b13fa4218"
+  },
+  "employee_id": {
+    "$oid": "67c89b1e5628150b13fa421d"
+  },
+  "glasses_id": {
+    "$oid": "67c89b1e5628150b13fa421a"
+  },
+  "sale_date": {
+    "$date": "2025-03-03T12:00:00.000Z"
+  }
+}]

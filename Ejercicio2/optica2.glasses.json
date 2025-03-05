@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4219"
+  },
+  "brand": "RayBan",
+  "frame_type": "Metallic",
+  "frame_color": "Black",
+  "lens_graduation": {
+    "left": "1.75",
+    "right": "2.00"
+  },
+  "lens_color": {
+    "left": "Transparent",
+    "right": "Transparent"
+  },
+  "price": 120.5,
+  "provider_id": {
+    "$oid": "67c89b1e5628150b13fa4214"
+  },
+  "buyers": [
+    {
+      "$oid": "67c89b1e5628150b13fa4216"
+    },
+    {
+      "$oid": "67c89b1e5628150b13fa4217"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa421a"
+  },
+  "brand": "Oakley",
+  "frame_type": "Pasta",
+  "frame_color": "Blue",
+  "lens_graduation": {
+    "left": "2.00",
+    "right": "2.25"
+  },
+  "lens_color": {
+    "left": "Gray",
+    "right": "Gray"
+  },
+  "price": 150,
+  "provider_id": {
+    "$oid": "67c89b1e5628150b13fa4215"
+  },
+  "buyers": [
+    {
+      "$oid": "67c89b1e5628150b13fa4218"
+    }
+  ]
+}]

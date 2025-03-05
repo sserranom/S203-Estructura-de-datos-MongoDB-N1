@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4216"
+  },
+  "name": "Luis Fernández",
+  "postal_address": "C/ Alcalá, 100, Madrid",
+  "phone": "+34 600 123 456",
+  "email": "luis.fernandez@email.com",
+  "registration_date": {
+    "$date": "2024-02-15T09:30:00.000Z"
+  },
+  "recommended_by": null
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4217"
+  },
+  "name": "Mariana Gómez",
+  "postal_address": "Av. Libertador, 55, Valencia",
+  "phone": "+34 650 789 123",
+  "email": "mariana.gomez@email.com",
+  "registration_date": {
+    "$date": "2024-02-20T14:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "67c89b1e5628150b13fa4216"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c89b1e5628150b13fa4218"
+  },
+  "name": "Carlos Ramírez",
+  "postal_address": "C/ Independencia, 120, Sevilla",
+  "phone": "+34 620 456 789",
+  "email": "carlos.ramirez@email.com",
+  "registration_date": {
+    "$date": "2024-02-25T11:45:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "67c89b1e5628150b13fa4217"
+  }
+}]
