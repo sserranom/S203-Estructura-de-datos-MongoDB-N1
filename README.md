@@ -102,6 +102,3 @@ Esta base de datos utiliza Mongoose con Node.js y tiene una estructura similar a
       [Diagrama de la base de datos](https://github.com/sserranom/S203-Estructura-de-datos-MongoDB-N1/blob/main/Ejercicio2/optica2_diagram.jpg)
 
 
-
-
-Este README proporciona una descripción general básica de los esquemas de la base de datos. Puedes ampliarlo con información sobre cómo conectarse a las bases de datos, ejemplos de consultas y cualquier otra información relevante.
